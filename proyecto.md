@@ -1,19 +1,3 @@
-# Hackathon 2021: Los Sysadmins
-
-
-Una propuesta innovadora de logística para la implementación de sistemas tecnológicos en Cañazas, Veraguas.
-
-
-
-### Integrantes del Equipo
-[Fernando Cutire](https://github.com/FernandoCutire)
-[Gabriel Díaz](https://github.com/diaz-alx)
-[Jose Brown ](https://github.com/joselbrown)
-[Juan Riquelme](https://github.com/Jrigoo)
-
-
-
-
 ## Sobre el  Desafío 2: Logística para la implementación de sistemas tecnológicos en áreas remotas ​
 
 ### 🧐 Descripción
@@ -38,4 +22,3 @@ Todo el reto debe cumplirse dentro del tiempo establecido para el hackathon 2021
 
 ### 💻 Entregables
 Entregar el plan de trabajo con detalles, maqueta virtual, fotos del área designada para la implementación del proyecto, costos e implementación para armar un sistema tecnológico en un área de difícil acceso. ​
-
