@@ -1,6 +1,5 @@
 import { tw, css } from 'twind/css';
 import Button from '@/components/button';
-import Nike from '@/constants/svg/nike.svg';
 import Fisc from '@/constants/svg/fisc.svg';
 import UTP from '@/constants/svg/utp.svg';
 import Eurus from '@/constants/svg/eurus.svg';
@@ -30,7 +29,7 @@ const Header = () => (
     </div>
     <div className={tw(`flex justify-center w-full`)}>
       <div className={tw(`mt-4 w-full`)}>
-        <p className={tw(`font-mono uppercase text-center font-medium text-sm text-gray-600`)}>These folks get it</p>
+        <p className={tw(`font-mono uppercase text-center font-medium text-sm text-gray-600`)}>Apoyado por</p>
         <div className={tw(`flex items-center justify-center mx-auto flex-wrap`)}>
           <Eurus className={tw(`m-12 mb-8`)} width={120} />
           <Fisc className={tw(`m-12`)} width={140} />
