@@ -13,11 +13,12 @@ export default function Home() {
   return (
     <Page>
       <NextSeo
-        title="STARTD - Template"
-        description="A TypeScript/Next.js theme that includes everything you need to build amazing landing page!"
+        title="Educando Offline | Inicio"
+        description="Logística para la implementación de sistemas tecnológicos en áreas remotas"
       />
       <Header />
       <main>
+        <VideoSection />
         <ListSection />
         <FeatureSection />
         <CasesSection />
