@@ -15,22 +15,25 @@ const Header = () => (
   <header className={tw(headerStyle)}>
     <div className={tw(`max-w-4xl mx-auto py-16 px-14 sm:px-6 lg:px-8`)}>
       <h1 className={tw(`font-sans font-bold text-4xl md:text-5xl lg:text-8xl text-center leading-snug text-gray-800`)}>
-        Muchas gracias por el interés
+        Un servicio social diferente
       </h1>
       <div className={tw(`max-w-xl mx-auto`)}>
         <p className={tw(`mt-10 text-gray-500 text-center text-xl lg:text-3xl`)}>
-          Este proyecto está en desarrollo , puedes llenar el formulario y te informaremos cuando estemos
-          implementandolo.
+          Aquí comienza la historia de GABO como método de llevar una educación de calidad en áreas rurales.
         </p>
       </div>
       <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto`)}>
-        <a href="https://forms.gle/QqjtTRjB4RtbAGsn9" target="_blank" rel="noopener noreferrer">
-          <Button primary>Contáctanos</Button>
+        <a
+          href="https://www.canva.com/design/DAEwSIDg14A/mnXskv2U3CkjgU8q4F8PZg/view?utm_content=DAEwSIDg14A&utm_campaign=designshare&utm_medium=link&utm_source=sharebutton"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button primary>Mira nuestra historia</Button>
         </a>
         <span className={tw(`mx-4`)}>o</span>
-        <Link href="/historia">
-          <Button>Nuestra historia</Button>
-        </Link>
+        <a href="https://forms.gle/QqjtTRjB4RtbAGsn9" target="_blank" rel="noopener noreferrer">
+          <Button>Contáctanos</Button>
+        </a>
       </div>
     </div>
     <div className={tw(`flex justify-center w-full`)}>

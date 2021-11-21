@@ -1,14 +1,14 @@
 import { NextSeo } from 'next-seo';
 import Page from '@/components/page';
-import Header from '@/components/header-empezar';
+import Header from '@/components/header-historia';
 import Footer from '@/components/footer';
 
 export default function Historia() {
   return (
     <Page>
-      <NextSeo title="Historia | Cañazas" description="Como Gabo surge como solución en áreas rurales." />
+      <NextSeo title="Cañazas | Historia" description="Como Gabo surge como solución en áreas rurales." />
       <Header />
-      <main />
+
       <Footer />
     </Page>
   );

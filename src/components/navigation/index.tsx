@@ -134,7 +134,7 @@ const Navigation = () => {
               <a href="https://forms.gle/wsEbMvCmrRvAgc7P7" target="_blank" rel="noopener noreferrer">
                 <Button modifier="border-0 mr-2">Contáctanos</Button>
               </a>
-              <Link href="/">
+              <Link href="/empezar">
                 <Button primary>Empieza</Button>
               </Link>
             </div>

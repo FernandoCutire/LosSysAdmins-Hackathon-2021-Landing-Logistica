@@ -18,14 +18,14 @@ const Header = () => (
         Educación de calidad sin conexión a internet
       </h1>
       <div className={tw(`max-w-xl mx-auto`)}>
-        <p className={tw(`mt-10 text-gray-500 text-center text-xl lg:text-3xl`)}>
+        <p className={tw(`mt-12 text-gray-500 text-center text-xl lg:text-3xl`)}>
           Creando maravillosas experiencias de educación en áreas rurales.
         </p>
       </div>
       <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto`)}>
-        <Link href="/empezar">
-          <Button primary>Empieza</Button>
-        </Link>
+        <a href="https://rachel.worldpossible.org/preview" target="_blank" rel="noopener noreferrer">
+          <Button primary>Ver la demo</Button>
+        </a>
         <span className={tw(`mx-4`)}>o</span>
         <a href="https://forms.gle/QqjtTRjB4RtbAGsn9" target="_blank" rel="noopener noreferrer">
           <Button>Contáctanos</Button>

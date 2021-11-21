@@ -1,10 +1,9 @@
-import Link from 'next/link';
 import { tw, css } from 'twind/css';
-import Button from '@/components/button';
 import Fisc from '@/constants/svg/fisc.svg';
 import UTP from '@/constants/svg/utp.svg';
 import Eurus from '@/constants/svg/eurus.svg';
 import Dell from '@/constants/svg/dell.svg';
+import Button from '@/components/button';
 
 const headerStyle = css`
   background-color: #ffffff;
@@ -24,13 +23,13 @@ const Header = () => (
         </p>
       </div>
       <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto`)}>
-        <a href="https://forms.gle/QqjtTRjB4RtbAGsn9" target="_blank" rel="noopener noreferrer">
-          <Button primary>Contáctanos</Button>
+        <a href="https://rachel.worldpossible.org/preview" target="_blank" rel="noopener noreferrer">
+          <Button primary>Ver la demo</Button>
         </a>
         <span className={tw(`mx-4`)}>o</span>
-        <Link href="/historia">
-          <Button>Nuestra historia</Button>
-        </Link>
+        <a href="https://forms.gle/QqjtTRjB4RtbAGsn9" target="_blank" rel="noopener noreferrer">
+          <Button>Infórmame</Button>
+        </a>
       </div>
     </div>
     <div className={tw(`flex justify-center w-full`)}>

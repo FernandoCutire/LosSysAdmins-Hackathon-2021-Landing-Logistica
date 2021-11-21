@@ -6,7 +6,7 @@ import Footer from '@/components/footer';
 export default function Features() {
   return (
     <Page>
-      <NextSeo title="GABO - Funcionalidades" description="Observa las principales funcionalidades de Gabo" />
+      <NextSeo title="GABO | Funcionalidades" description="Observa las principales funcionalidades de Gabo" />
       <main>
         <FeatureSection />
       </main>

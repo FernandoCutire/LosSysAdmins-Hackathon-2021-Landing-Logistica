@@ -19,7 +19,6 @@ export default function Home() {
       <Header />
       <main>
         <VideoSection />
-        <ListSection />
         <FeatureSection />
         <CasesSection />
         <PricingTable />
