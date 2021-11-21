@@ -42,7 +42,7 @@ const FeatureSection = () => (
               <div className={tw(`ml-4 text-xl`)}>Librería de contenidos y herramientas DIY</div>
             </div>
             <p className={tw(`leading-loose text-gray-500`)}>
-              Contiene sitios como wikipedia, proyecto gutenberg, ted, medline plus entre otros sitios de educación.
+              Contiene sitios como wikipedia, proyecto gutenberg, TED, medline plus entre otros sitios de educación.
             </p>
           </div>
           <div className={tw(`w-full border-b md:w-1/2 lg:w-1/3 lg:border-r lg:border-b-0 p-8`)}>
@@ -56,7 +56,7 @@ const FeatureSection = () => (
               <div className={tw(`ml-4 text-xl`)}>Documentación y Ayuda extensiva</div>
             </div>
             <p className={tw(`leading-loose text-gray-500`)}>
-              Debido al tiempo en el mercado se ha creado una fuente de conocimientoes extensa que facilita la
+              Debido al tiempo en el mercado se ha creado una fuente de conocimientos extensa que facilita la
               implementación en diversas zonas.
             </p>
           </div>

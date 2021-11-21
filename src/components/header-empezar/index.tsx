@@ -19,7 +19,7 @@ const Header = () => (
       <div className={tw(`max-w-xl mx-auto`)}>
         <p className={tw(`mt-10 text-gray-500 text-center text-xl lg:text-3xl`)}>
           Este proyecto está en desarrollo , puedes llenar el formulario y te informaremos cuando estemos
-          implementandolo.
+          implementándolo.
         </p>
       </div>
       <div className={tw(`mt-10 flex justify-center items-center w-full mx-auto`)}>
