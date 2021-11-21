@@ -1,6 +1,7 @@
 import { tw } from 'twind';
 import { useState } from 'react';
 import Button from '@/components/button';
+import Link from 'next/link';
 
 interface IMenuButton {
   toggleMenu: React.MouseEventHandler<HTMLButtonElement>;
@@ -18,23 +19,19 @@ const links = [
     href: `/features`,
   },
   {
-    label: `Precio`,
-    href: `/`,
-  },
-  {
-    label: `Blog`,
-    href: `/`,
+    label: `Historia`,
+    href: `/historia`,
   },
 ];
 
 const secondaryLinks = [
   {
-    label: `Contact sales`,
-    href: `/`,
+    label: `Contáctanos`,
+    href: `https://forms.gle/wsEbMvCmrRvAgc7P7`,
   },
   {
     label: `Comienza`,
-    href: `/`,
+    href: `/empezar`,
   },
 ];
 
@@ -112,7 +109,11 @@ const Navigation = () => {
         <div className={tw(`flex items-center justify-between h-24`)}>
           <div className={tw(`flex items-center`)}>
             <div className={tw(`flex-shrink-0`)}>
-              <img className={tw(`h-12 w-12`)} src="logo.svg" alt="logo" width={48} height={48} />
+              <Link href="/">
+                <a>
+                  <img className={tw(`h-12 w-12`)} src="logo.svg" alt="logo" width={48} height={48} />
+                </a>
+              </Link>
             </div>
             <div className={tw(`hidden md:block`)}>
               <div className={tw(`ml-10 flex items-baseline space-x-4`)}>
@@ -130,8 +131,12 @@ const Navigation = () => {
           </div>
           <div className={tw(`hidden md:block`)}>
             <div className={tw(`ml-4 flex items-center md:ml-6`)}>
-              <Button modifier="border-0 mr-2">Contáctanos</Button>
-              <Button primary>Empieza</Button>
+              <a href="https://forms.gle/wsEbMvCmrRvAgc7P7" target="_blank" rel="noopener noreferrer">
+                <Button modifier="border-0 mr-2">Contáctanos</Button>
+              </a>
+              <Link href="/">
+                <Button primary>Empieza</Button>
+              </Link>
             </div>
           </div>
           <div className={tw(`-mr-2 flex md:hidden`)}>

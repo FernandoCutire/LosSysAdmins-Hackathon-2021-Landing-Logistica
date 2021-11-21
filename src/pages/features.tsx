@@ -6,10 +6,7 @@ import Footer from '@/components/footer';
 export default function Features() {
   return (
     <Page>
-      <NextSeo
-        title="STARTD - Features"
-        description="A TypeScript/Next.js theme that includes everything you need to build amazing landing page!"
-      />
+      <NextSeo title="GABO - Funcionalidades" description="Observa las principales funcionalidades de Gabo" />
       <main>
         <FeatureSection />
       </main>

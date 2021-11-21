@@ -1,4 +1,5 @@
 import { tw } from 'twind';
+import Link from 'next/link';
 import Particles from 'react-particles-js';
 import Arrow from '@/constants/svg/arrow.svg';
 
@@ -45,18 +46,18 @@ const ParticleBg = () => (
 
 const articles = [
   {
-    title: `Velit reprehenderit culpa Lorem reprehenderit excepteur ipsum esse.`,
-    image: `/images/case-1.webp`,
+    title: `Como Pan de azúcar se beneficia de GABO `,
+    image: `/campamento/campamento-1.jpeg`,
+    alt: `La Concepcion`,
+  },
+  {
+    title: `La Concepción muestra como desarrolla con GABO.`,
+    image: `/campamento/campamento-4.jpeg`,
     alt: `Proident pariatur est.`,
   },
   {
-    title: `Velit reprehenderit culpa Lorem reprehenderit ipsum esse.`,
-    image: `/images/case-2.webp`,
-    alt: `Proident pariatur est.`,
-  },
-  {
-    title: `Velit reprehenderit culpa Lorem reprehenderit excepteur esse.`,
-    image: `/images/case-3.webp`,
+    title: `El Rosario un ejemplo para implementar GABO.`,
+    image: `/campamento/campamento-3.jpeg`,
     alt: `Proident pariatur est.`,
   },
 ];
@@ -68,9 +69,9 @@ const CasesSection = () => (
         <ParticleBg />
       </div>
       <div className={tw(`max-w-7xl mx-4 lg:mx-auto pt-20 lg:pt-40`)}>
-        <h1 className={tw(`text-white text-4xl lg:text-7xl font-bold text-center`)}>What will you build?</h1>
+        <h1 className={tw(`text-white text-4xl lg:text-7xl font-bold text-center`)}>¿Qué te atreves a construir?</h1>
         <p className={tw(`text-white text-gray-400 text-center text-xl mt-12`)}>
-          Don’t just take our word for it — see what leaders in digital are saying
+          Para un buen proyecto es importante una buena planificación, inspírate de estos casos de estudio.
         </p>
         <div className={tw(`mx-auto pt-24`)}>
           <div className={tw(`w-full flex flex-wrap justify-around`)}>
@@ -92,7 +93,7 @@ const CasesSection = () => (
                   />
                 </div>
                 <div className={tw(`p-4 shadow-lg w-full mx-auto -mt-8 bg-white rounded-b z-30 relative`)}>
-                  <p className={tw(`uppercase text-sm text-gray-700 text-center pb-1`)}>Case study</p>
+                  <p className={tw(`uppercase text-sm text-gray-700 text-center pb-1`)}>Caso de estudio</p>
                   <p className={tw(`text-gray-500 text-center pb-1 text-sm`)}>{article.title}</p>
                 </div>
               </div>
@@ -103,7 +104,7 @@ const CasesSection = () => (
                 text-indigo-400 cursor-pointer z-30 hover:text-indigo-600`,
               )}
             >
-              See all case studies
+              <Link href="/historia">Mira nuestra historia</Link>
               <Arrow className={tw(`h-6 w-6 fill-current ml-2`)} />
             </span>
           </div>
