@@ -7,7 +7,7 @@ export default function Empezar() {
   return (
     <Page>
       <NextSeo
-        title="Educando Offline | Inicio"
+        title="GABO | Educando Offline "
         description="Logística para la implementación de sistemas tecnológicos en áreas remotas"
       />
       <Header />
